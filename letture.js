@@ -10,7 +10,7 @@ let hovering = false;
 function scheduleRotation() {
   clearTimeout(timer);
   const reading = hovering || rail.contains(document.activeElement);
-  if (inView && !motionPreference.matches && !reading && !document.hidden) timer = setTimeout(changePair, 6500);
+  if (inView && !motionPreference.matches && !reading && !document.hidden) timer = setTimeout(changePair, 4000);
 }
 
 function changePair() {
