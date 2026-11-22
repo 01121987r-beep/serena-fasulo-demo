@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 80" fill="none">
+  <title>Un volto con gli occhi chiusi e la guancia appoggiata alla mano</title>
+  <g stroke="#292720" stroke-width="1.95" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 37C24 25 29 14 40 10C53 5 66 13 69 24"/>
+    <path d="M67 26C69 34 70 40 70 44C70 47 67 48 63 48M67 55C64 62 58 66 51 65C47 64 44 62 42 60"/>
+    <path d="M47 32C49 36 53 37 57 35M62 29C64 31 66 32 68 31" stroke-width="1.45"/>
+    <path d="M61 54Q64 56 67 53" stroke="#dc700d"/>
+    <path d="M26 70C29 64 28 60 25 56L20 45Q18 40 20 39Q22 38 24 42L29 50M29 50L25 34Q24 30 26 29Q28 29 29 33L34 46M34 46L31 32Q30 28 32 28Q34 28 35 32L39 46M39 46L38 38Q38 35 40 36Q42 36 43 41L46 51C48 58 45 63 41 68L38 73" stroke-width="1.65"/>
+  </g>
+</svg>

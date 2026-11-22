@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 80" fill="none">
+  <title>Uno specchio a mano con un volto riflesso</title>
+  <g stroke="#292720" stroke-width="1.95" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(24 49 40)">
+      <path d="M27 28C27 15 36 6 47 6C59 5 68 16 68 29C68 42 59 52 48 52C37 52 27 42 27 28Z"/>
+      <path d="M31 28C31 17 38 10 47 10C57 9 64 18 64 29C64 38 58 46 50 47" stroke-width="1.05"/>
+      <path d="M45 52L44 69Q44 74 48 74Q52 74 51 68L50 53"/>
+      <path d="M39 23Q40 26 43 25M52 22Q54 24 56 22M48 24L49 32Q49 34 46 33" stroke-width="1.45"/>
+      <path d="M42 37Q47 41 52 36" stroke="#dc700d"/>
+    </g>
+  </g>
+</svg>

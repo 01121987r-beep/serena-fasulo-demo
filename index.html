@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Serena Fasulo | Psicologa</title>
+<meta name="description" content="Conosci Serena Fasulo, esplora i percorsi e leggi il quaderno di psicologia.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="assets/simbolo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script defer src="assets/vendor/gsap.min.js"></script>
+<script defer src="script.js">
+</script>
+<script defer src="letture.js"></script>
+</head>
+<body>
+<dialog class="paper-intro" id="paper-intro" aria-labelledby="intro-name intro-roles">
+  <div class="intro-layout">
+    <div class="intro-composition">
+      <svg class="paper-emblem" xmlns="http://www.w3.org/2000/svg" viewBox="123 219 331 300" fill="none" stroke-linejoin="round" aria-hidden="true">
+        <defs>
+          <path id="folio-stock" d="M161 478 L264 330 Q255 312 279 311 Q311 306 317 322 L312 331 L416 480 L400 469 L382 481 L375 470 L356 479 L351 470 L331 478 L329 471 L293 479 L289 473 L280 480 L246 471 L244 477 L222 471 L221 478 L201 469 L195 480 L177 470Z"/>
+          <path id="face-stock" d="M249 278 C247 255 259 233 284 230 C310 222 334 241 331 265 C328 291 305 315 281 311 C259 310 246 297 249 278Z"/>
+          <path id="paper-mano-sinistra" d="M 166.698,477.531 C 166.698,477.531 160.940,479.625 158.959,478.276 C 157.841,477.515 155.989,472.488 154.038,471.034 C 152.532,469.911 150.598,471.765 151.193,474.076 C 152.063,477.457 154.906,481.720 154.906,481.720 C 154.906,481.720 154.821,483.914 150.164,479.388 C 145.834,475.180 139.578,470.822 137.087,473.847 C 135.338,475.969 148.862,484.593 148.862,484.593 C 148.862,484.593 150.381,486.561 148.355,486.507 C 145.106,486.418 138.776,481.846 137.721,481.667 C 136.211,481.409 133.051,481.585 135.976,486.054 C 136.974,487.580 142.819,490.582 146.109,491.668 C 147.174,492.020 146.161,493.259 146.161,493.259 L 138.677,492.469 C 138.677,492.469 134.471,492.226 136.978,495.865 C 139.435,499.433 148.974,498.716 148.974,498.716 C 148.974,498.716 152.181,500.010 149.899,501.355 C 148.649,502.092 140.946,501.584 140.533,503.042 C 140.119,504.501 141.996,505.539 144.078,505.740 C 146.160,505.945 154.905,505.510 159.169,503.522 C 163.435,501.535 174.444,496.671 166.698,477.531 Z"/>
+          <path id="paper-mano-destra" d="M 410.249,477.531 C 410.249,477.531 416.007,479.625 417.987,478.276 C 419.105,477.515 420.957,472.488 422.908,471.034 C 424.415,469.911 426.349,471.765 425.754,474.076 C 424.884,477.457 422.041,481.720 422.041,481.720 C 422.041,481.720 422.126,483.914 426.783,479.388 C 431.113,475.180 437.369,470.822 439.860,473.847 C 441.608,475.969 428.085,484.593 428.085,484.593 C 428.085,484.593 426.565,486.561 428.592,486.507 C 431.840,486.418 438.171,481.846 439.226,481.667 C 440.735,481.409 443.895,481.585 440.970,486.054 C 439.974,487.580 434.127,490.582 430.838,491.668 C 429.772,492.020 430.785,493.259 430.785,493.259 L 438.270,492.469 C 438.270,492.469 442.476,492.226 439.968,495.865 C 437.512,499.433 427.973,498.716 427.973,498.716 C 427.973,498.716 424.766,500.010 427.047,501.355 C 428.297,502.092 436.002,501.584 436.413,503.042 C 436.826,504.501 434.950,505.539 432.868,505.740 C 430.787,505.945 422.041,505.510 417.777,503.522 C 413.511,501.535 402.503,496.671 410.249,477.531 Z"/>
+          <!-- Fibre, piccoli frammenti di polpa e bordo vivo del cartoncino. -->
+          <pattern id="paper-fibres" patternUnits="userSpaceOnUse" width="33" height="29" patternTransform="rotate(-17)">
+            <path d="M1 5l2.8-.4m9 5.2 1.1.4m9.4 1.2 3.4-.5M3 25l1.6-.6m13-4.7 2.4.1m10-17 1.4-.5" stroke="#75563f" stroke-width=".52" stroke-opacity=".38"/>
+            <path d="M9 1l1.8.4m4.1 5.1 2.2-.8m-12 13 3.7-.6m15.4 6.8 2-.7" stroke="#fffaf0" stroke-width=".7" stroke-opacity=".88"/>
+            <path d="m5 11 1-.4.6.8-1.3.4zm17 6 .6-.2.3.5-.6.2z" fill="#805d47" opacity=".3"/>
+          </pattern>
+          <clipPath id="folio-l"><path d="M110 300H288.36V320.4L241 490H110Z"/></clipPath><clipPath id="folio-c"><path d="M288.36 300V320.4L241 490H336L288.36 320.4Z"/></clipPath><clipPath id="folio-r"><path d="M288.36 300H450V490H336L288.36 320.4Z"/></clipPath>
+          <g id="paper-body"><use href="#folio-stock" class="stock"/><use href="#folio-stock" class="fibres"/>
+<path d="M 176.826,463.680 L 194.043,474.577 L 200.973,463.387 L 288.360,320.408 L 224.196,463.434 L 220.038,472.595 L 200.796,463.431" stroke="#000" stroke-width="2.5"/>
+<path d="M 246.202,464.009 L 281.480,472.595 L 288.340,320.344 L 244.346,470.945 L 223.920,464.009" stroke="#000" stroke-width="2.5"/>
+<path d="M 399.358,463.680 L 382.140,474.577 L 375.212,463.387 L 288.359,320.408 L 351.989,463.434 L 356.146,472.595 L 375.388,463.431" stroke="#000" stroke-width="2.5"/>
+<path d="M 329.982,464.009 L 294.703,472.595 L 288.359,320.407 L 331.838,470.945 L 352.262,464.009" stroke="#000" stroke-width="2.5"/>
+<path d="M 189.654,456.910 C 189.654,456.910 192.467,464.561 194.718,460.510 C 196.969,456.459 193.818,454.433 195.843,453.983 C 197.869,453.534 195.280,447.793 198.769,447.681 C 202.258,447.569 202.934,445.883 202.370,441.718 C 201.808,437.553 201.808,435.755 205.859,435.304 C 209.910,434.852 211.036,437.103 211.148,431.365 C 211.260,425.625 212.273,423.937 215.987,422.924 C 219.700,421.912 220.263,422.138 221.050,415.948 C 221.839,409.758 223.302,409.196 226.678,407.283 C 230.054,405.369 234.105,402.670 234.780,397.492" stroke="#000" stroke-width="2.5"/>
+<path d="M 237.707,390.065 C 237.707,390.065 240.746,382.862 243.559,382.412 C 246.371,381.962 247.160,381.737 247.947,377.123" stroke="#000" stroke-width="2.5"/>
+<path d="M 248.172,395.579 C 248.172,395.579 242.320,404.356 242.658,407.620 C 242.995,410.883 244.346,413.135 241.082,415.272 C 237.818,417.411 234.780,418.760 234.443,422.924" stroke="#000" stroke-width="2.5"/>
+<path d="M 228.591,432.040 C 228.591,432.040 224.989,432.828 226.677,435.304 C 228.365,437.778 231.292,438.905 227.916,439.354 C 224.540,439.804 222.965,440.142 222.852,442.167 C 222.739,444.193 223.976,445.769 222.964,447.457 C 221.951,449.145 218.687,447.908 218.574,450.833 C 218.463,453.758 223.751,459.046 218.912,459.497 C 214.074,459.948 211.260,458.824 211.598,460.961" stroke="#000" stroke-width="2.5"/>
+<path d="M 411.138,478.739 L 306.256,330.398 C 306.256,330.398 314.809,322.725 309.408,319.741 C 304.006,316.759 289.152,315.905 289.152,315.905 L 287.897,315.905 C 287.897,315.905 273.043,316.759 267.641,319.741 C 262.239,322.725 270.791,330.398 270.791,330.398 L 165.911,478.739" stroke="#ff8500" stroke-width="4"/>
+<path d="M 281.932,468.163 L 294.198,468.163" stroke="#000" stroke-width="2.5"/></g>
+        </defs>
+        <g class="cutout folio-l"><g class="rolling-stock"><g clip-path="url(#folio-l)"><use href="#paper-body"/></g></g></g><g class="cutout folio-c"><g class="rolling-stock"><g clip-path="url(#folio-c)"><use href="#paper-body"/></g></g></g><g class="cutout folio-r"><g class="rolling-stock"><g clip-path="url(#folio-r)"><use href="#paper-body"/></g></g></g>
+        <g class="cutout viso"><g class="rolling-stock"><use href="#face-stock" class="stock"/><use href="#face-stock" class="fibres"/>
+<path d="M 297.011,255.137 C 297.011,255.137 303.538,292.499 290.034,283.722 C 276.530,274.945 274.955,271.117 274.955,271.117" stroke="#000" stroke-width="2.5"/>
+<path d="M 279.678,250.580 C 279.678,250.580 279.938,257.479 284.000,257.479 L 288.061,257.479" stroke="#000" stroke-width="2.5"/>
+<path d="M 307.360,264.083 C 307.360,264.083 307.620,270.984 311.681,270.984 L 315.744,270.984" stroke="#000" stroke-width="2.5"/>
+<path d="M 254.191,284.184 C 256.621,304.109 289.728,322.620 317.379,282.688 C 341.907,247.264 301.072,230.766 290.695,235.619" stroke="#000" stroke-width="4"/>
+<path d="M 271.576,283.425 C 271.576,283.425 274.555,293.053 284.414,291.792" stroke="#ff8500" stroke-width="3"/></g></g>
+        <g class="cutout mano-sinistra"><g class="rolling-stock"><use href="#paper-mano-sinistra" class="hand-stock"/><use href="#paper-mano-sinistra" class="fibres"/><use href="#paper-mano-sinistra" class="hand-ink"/></g></g>
+        <g class="cutout mano-destra"><g class="rolling-stock"><use href="#paper-mano-destra" class="hand-stock"/><use href="#paper-mano-destra" class="fibres"/><use href="#paper-mano-destra" class="hand-ink"/></g></g>
+      </svg>
+      <div class="intro-byline">
+        <p id="intro-name" tabindex="-1" autofocus>Serena <em>Fasulo.</em></p>
+        <p id="intro-roles">Psicoterapeuta. Psicologa.</p>
+      </div>
+    </div>
+    <button class="intro-skip" type="button">Entra nel sito</button>
+  </div>
+</dialog>
+<script src="intro.js"></script>
+<a class="skip" href="#main">Vai al contenuto</a>
+<header class="mast">
+<div class="wrap navrow"><a class="brand" href="#home" aria-label="Serena Fasulo, home"><img src="assets/simbolo.svg" alt="" width="42" height="38"><span>Serena Fasulo<small>Psicologa</small></span></a>
+<button class="menu" type="button" aria-label="Apri menu" aria-expanded="false" aria-controls="nav">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false">
+    <path d="M3 12h18"/><path d="M3 12h18"/><path d="M3 12h18"/>
+  </svg>
+</button>
+<nav id="nav" aria-label="Principale"><a href="#home" data-section="home" aria-current="location">Home</a><a href="#chi-sono" data-section="chi-sono">Chi sono</a><a href="#metodo" data-section="metodo">Il metodo</a><a href="#percorsi" data-section="percorsi">Percorsi</a><a href="blog/index.html" data-section="blog">Blog</a><a href="#contatti" data-section="contatti">Contatti</a>
+</nav>
+<div class="channel-icons header-channels">
+  <a data-channel="facebook" href="#contatti" aria-label="Facebook di Serena Fasulo" title="Facebook di Serena Fasulo"><img src="assets/facebook.svg" alt="" width="19" height="19"></a>
+  <a data-channel="instagram" href="#contatti" aria-label="Instagram di Serena Fasulo" title="Instagram di Serena Fasulo"><img src="assets/instagram.svg" alt="" width="19" height="19"></a>
+</div>
+</div>
+</header>
+<main id="main">
+<section class="hero" id="home" aria-labelledby="hero-name">
+<div class="wrap hero-inner">
+<div class="intro">
+<p class="kicker"><span class="dash"></span>Dott.ssa · Psicologa</p>
+<h1 id="hero-name" tabindex="-1">Serena <br><em>Fasulo</em>
+</h1>
+<p class="lead">Ci sono cose che sentiamo prima di riuscire a raccontarle. Nel primo colloquio possiamo partire da un episodio che ti è rimasto in mente, da una relazione che sta cambiando o da una domanda a cui continui a tornare.</p>
+<div class="actions"><button class="button" id="request-appointment" type="button" aria-haspopup="dialog" aria-controls="appointment-dialog">Richiedi un primo colloquio</button><a class="textlink" href="#percorsi">I percorsi</a>
+</div>
+</div>
+<div class="still-life">
+<div class="notebook">
+<div class="page">
+<div class="page-content"><svg class="assembled" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="128 226 321 288" fill="none" stroke-linejoin="round">
+<g class="pezzo viso">
+<path pathLength="1" style="--ink-order: 0" d="M 297.011,255.137 C 297.011,255.137 303.538,292.499 290.034,283.722 C 276.530,274.945 274.955,271.117 274.955,271.117" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 1" d="M 279.678,250.580 C 279.678,250.580 279.938,257.479 284.000,257.479 L 288.061,257.479" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 2" d="M 307.360,264.083 C 307.360,264.083 307.620,270.984 311.681,270.984 L 315.744,270.984" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 3" d="M 254.191,284.184 C 256.621,304.109 289.728,322.620 317.379,282.688 C 341.907,247.264 301.072,230.766 290.695,235.619" stroke="#000" stroke-width="4"/>
+<path pathLength="1" style="--ink-order: 4" d="M 271.576,283.425 C 271.576,283.425 274.555,293.053 284.414,291.792" stroke="#ff8500" stroke-width="3"/></g>
+<g class="pezzo pagine">
+<path pathLength="1" style="--ink-order: 5" d="M 176.826,463.680 L 194.043,474.577 L 200.973,463.387 L 288.360,320.408 L 224.196,463.434 L 220.038,472.595 L 200.796,463.431" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 6" d="M 246.202,464.009 L 281.480,472.595 L 288.340,320.344 L 244.346,470.945 L 223.920,464.009" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 7" d="M 399.358,463.680 L 382.140,474.577 L 375.212,463.387 L 288.359,320.408 L 351.989,463.434 L 356.146,472.595 L 375.388,463.431" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 8" d="M 329.982,464.009 L 294.703,472.595 L 288.359,320.407 L 331.838,470.945 L 352.262,464.009" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 9" d="M 189.654,456.910 C 189.654,456.910 192.467,464.561 194.718,460.510 C 196.969,456.459 193.818,454.433 195.843,453.983 C 197.869,453.534 195.280,447.793 198.769,447.681 C 202.258,447.569 202.934,445.883 202.370,441.718 C 201.808,437.553 201.808,435.755 205.859,435.304 C 209.910,434.852 211.036,437.103 211.148,431.365 C 211.260,425.625 212.273,423.937 215.987,422.924 C 219.700,421.912 220.263,422.138 221.050,415.948 C 221.839,409.758 223.302,409.196 226.678,407.283 C 230.054,405.369 234.105,402.670 234.780,397.492" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 10" d="M 237.707,390.065 C 237.707,390.065 240.746,382.862 243.559,382.412 C 246.371,381.962 247.160,381.737 247.947,377.123" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 11" d="M 248.172,395.579 C 248.172,395.579 242.320,404.356 242.658,407.620 C 242.995,410.883 244.346,413.135 241.082,415.272 C 237.818,417.411 234.780,418.760 234.443,422.924" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 12" d="M 228.591,432.040 C 228.591,432.040 224.989,432.828 226.677,435.304 C 228.365,437.778 231.292,438.905 227.916,439.354 C 224.540,439.804 222.965,440.142 222.852,442.167 C 222.739,444.193 223.976,445.769 222.964,447.457 C 221.951,449.145 218.687,447.908 218.574,450.833 C 218.463,453.758 223.751,459.046 218.912,459.497 C 214.074,459.948 211.260,458.824 211.598,460.961" stroke="#000" stroke-width="2.5"/>
+<path pathLength="1" style="--ink-order: 13" d="M 411.138,478.739 L 306.256,330.398 C 306.256,330.398 314.809,322.725 309.408,319.741 C 304.006,316.759 289.152,315.905 289.152,315.905 L 287.897,315.905 C 287.897,315.905 273.043,316.759 267.641,319.741 C 262.239,322.725 270.791,330.398 270.791,330.398 L 165.911,478.739" stroke="#ff8500" stroke-width="4"/>
+<path pathLength="1" style="--ink-order: 14" d="M 281.932,468.163 L 294.198,468.163" stroke="#000" stroke-width="2.5"/></g>
+<g class="pezzo mano-sinistra">
+<path pathLength="1" style="--ink-order: 15" d="M 166.698,477.531 C 166.698,477.531 160.940,479.625 158.959,478.276 C 157.841,477.515 155.989,472.488 154.038,471.034 C 152.532,469.911 150.598,471.765 151.193,474.076 C 152.063,477.457 154.906,481.720 154.906,481.720 C 154.906,481.720 154.821,483.914 150.164,479.388 C 145.834,475.180 139.578,470.822 137.087,473.847 C 135.338,475.969 148.862,484.593 148.862,484.593 C 148.862,484.593 150.381,486.561 148.355,486.507 C 145.106,486.418 138.776,481.846 137.721,481.667 C 136.211,481.409 133.051,481.585 135.976,486.054 C 136.974,487.580 142.819,490.582 146.109,491.668 C 147.174,492.020 146.161,493.259 146.161,493.259 L 138.677,492.469 C 138.677,492.469 134.471,492.226 136.978,495.865 C 139.435,499.433 148.974,498.716 148.974,498.716 C 148.974,498.716 152.181,500.010 149.899,501.355 C 148.649,502.092 140.946,501.584 140.533,503.042 C 140.119,504.501 141.996,505.539 144.078,505.740 C 146.160,505.945 154.905,505.510 159.169,503.522 C 163.435,501.535 174.444,496.671 166.698,477.531 Z" stroke="#000" stroke-width="2.5"/></g>
+<g class="pezzo mano-destra">
+<path pathLength="1" style="--ink-order: 16" d="M 410.249,477.531 C 410.249,477.531 416.007,479.625 417.987,478.276 C 419.105,477.515 420.957,472.488 422.908,471.034 C 424.415,469.911 426.349,471.765 425.754,474.076 C 424.884,477.457 422.041,481.720 422.041,481.720 C 422.041,481.720 422.126,483.914 426.783,479.388 C 431.113,475.180 437.369,470.822 439.860,473.847 C 441.608,475.969 428.085,484.593 428.085,484.593 C 428.085,484.593 426.565,486.561 428.592,486.507 C 431.840,486.418 438.171,481.846 439.226,481.667 C 440.735,481.409 443.895,481.585 440.970,486.054 C 439.974,487.580 434.127,490.582 430.838,491.668 C 429.772,492.020 430.785,493.259 430.785,493.259 L 438.270,492.469 C 438.270,492.469 442.476,492.226 439.968,495.865 C 437.512,499.433 427.973,498.716 427.973,498.716 C 427.973,498.716 424.766,500.010 427.047,501.355 C 428.297,502.092 436.002,501.584 436.413,503.042 C 436.826,504.501 434.950,505.539 432.868,505.740 C 430.787,505.945 422.041,505.510 417.777,503.522 C 413.511,501.535 402.503,496.671 410.249,477.531 Z" stroke="#000" stroke-width="2.5"/></g>
+</svg>
+
+<p class="caption">La tua storia, <em>una pagina alla volta.</em>
+</p>
+</div>
+</div>
+</div>
+<p class="notebook-note">Ti ricevo in studio a Roma e online, in videochiamata. Possiamo scegliere insieme come incontrarci.</p>
+</div>
+</div>
+</section>
+<section id="chi-sono" class="profile section">
+<div class="wrap profile-grid">
+<figure class="portrait"><img src="assets/serena-fasulo.jpg" width="432" height="432" loading="lazy" alt="Ritratto della dottoressa Serena Fasulo">
+</figure>
+<div>
+<p class="kicker"><span class="dash"></span>Chi sono</p>
+<h2>Piacere,<br>sono <em>Serena.</em>
+</h2>
+<p>Sono una psicologa. Mi piace l’idea che un primo incontro possa cominciare anche da una frase a metà, da un dubbio, da qualcosa che ancora non ha un nome.</p>
+<p>In queste pagine trovi alcune domande che possiamo esplorare insieme, a partire da ciò che conta per te.</p><a class="textlink" href="#metodo">Scopri il metodo</a>
+</div>
+</div>
+</section>
+<section id="metodo" class="method section">
+<div class="wrap method-grid">
+<div>
+<p class="kicker"><span class="dash"></span>Il metodo</p>
+<h2>Da dove <em>cominciamo?</em>
+</h2>
+</div>
+<div>
+<p class="method-lead">Da un episodio, un silenzio, una domanda che torna.</p>
+<p>Nel primo colloquio c’è spazio per raccontare cosa ti porta qui e cosa vorresti cambiare. Possiamo soffermarci sulle parole che scegli, su come vivi quel momento e su ciò che resta da dire.</p>
+<p>Da questo primo scambio possiamo capire insieme quale direzione dare agli incontri successivi.</p>
+</div>
+</div>
+</section>
+<section id="percorsi" class="section">
+<div class="wrap">
+<p class="kicker"><span class="dash"></span>Percorsi</p>
+<h2>Di cosa vorresti <em>parlare?</em>
+</h2>
+<div class="areas paper-folds">
+<article class="area tone-0">
+  <img class="area-mark" src="assets/percorso-ascolto.svg" alt="" width="96" height="80">
+  <h3><button type="button" class="area-trigger" aria-haspopup="dialog" aria-controls="path-dialog">Ascolto di sé</button></h3>
+  <p>Quando senti che qualcosa si muove, ma trovare le parole è ancora difficile.</p>
+  <template class="area-detail"><p>Può succedere di rispondere «tutto bene» per abitudine e accorgersi, solo più tardi, che avremmo voluto dire altro. Qui c’è spazio per osservare quei momenti e cercare le parole che senti più vicine alla tua esperienza.</p><h3>Nel primo incontro</h3><p>Possiamo partire da un episodio recente e ripercorrerlo insieme. Che cosa hai sentito? Che cosa avresti voluto dire o chiedere?</p></template>
+</article>
+<article class="area tone-1">
+  <img class="area-mark" src="assets/percorso-cambiamento.svg" alt="" width="96" height="80">
+  <h3><button type="button" class="area-trigger" aria-haspopup="dialog" aria-controls="path-dialog">Momenti di cambiamento</button></h3>
+  <p>Quando un passaggio di vita cambia le abitudini e ti chiede di ripensare il tuo posto.</p>
+  <template class="area-detail"><p>Un trasloco, una separazione o un nuovo ruolo possono cambiare anche i gesti più familiari. Entusiasmo e nostalgia possono convivere, e a volte è difficile spiegare agli altri che cosa ci manca.</p><h3>Nel primo incontro</h3><p>Possiamo soffermarci su ciò che è cambiato nella tua quotidianità, su quello che desideri portare con te e sulle decisioni che oggi chiedono tempo.</p></template>
+</article>
+<article class="area tone-2">
+  <img class="area-mark" src="assets/percorso-legami.svg" alt="" width="96" height="80">
+  <h3><button type="button" class="area-trigger" aria-haspopup="dialog" aria-controls="path-dialog">Legami e relazioni</button></h3>
+  <p>Quando vuoi soffermarti su come stai con gli altri e su ciò che desideri esprimere.</p>
+  <template class="area-detail"><p>Una conversazione finisce sempre allo stesso modo, una richiesta resta in sospeso oppure dire di no diventa faticoso. Uno spazio individuale permette di osservare come vivi questi scambi e quali bisogni fai fatica a esprimere.</p><h3>Nel primo incontro</h3><p>Puoi portare una conversazione che ti è rimasta in mente. Guarderemo insieme le parole dette, quelle trattenute e cosa avresti desiderato dall’incontro.</p></template>
+</article>
+<article class="area tone-0">
+  <img class="area-mark" src="assets/percorso-preoccupazioni.svg" alt="" width="96" height="80">
+  <h3><button type="button" class="area-trigger" aria-haspopup="dialog" aria-controls="path-dialog">Ansia e preoccupazioni</button></h3>
+  <p>Quando i pensieri si affollano e anche una decisione quotidiana sembra occupare tutto lo spazio.</p>
+  <template class="area-detail"><p>Quando la mente torna spesso sugli stessi scenari, anche un’attesa o una scelta semplice possono occupare gran parte della giornata. Raccontare come accade nella tua esperienza dà un punto di partenza concreto al colloquio.</p><h3>Nel primo incontro</h3><p>Possiamo scegliere una situazione precisa e osservare che cosa la precede, quali pensieri ritornano e in quali momenti la preoccupazione lascia un po’ di spazio.</p></template>
+</article>
+<article class="area tone-1">
+  <img class="area-mark" src="assets/percorso-identita.svg" alt="" width="96" height="80">
+  <h3><button type="button" class="area-trigger" aria-haspopup="dialog" aria-controls="path-dialog">Autostima e identità</button></h3>
+  <p>Quando il modo in cui ti descrivi sembra dipendere soprattutto dallo sguardo degli altri.</p>
+  <template class="area-detail"><p>Un commento sul lavoro, un confronto con una persona vicina o un errore possono influenzare a lungo il modo in cui ti descrivi. Il colloquio offre tempo per distinguere le aspettative che incontri da ciò che ha valore per te.</p><h3>Nel primo incontro</h3><p>Puoi partire da una frase che ripeti spesso su di te. Potremo esplorare da dove arriva, quando ti rappresenta e quando invece ti sta stretta.</p></template>
+</article>
+<article class="area tone-2">
+  <img class="area-mark" src="assets/percorso-stress.svg" alt="" width="96" height="80">
+  <h3><button type="button" class="area-trigger" aria-haspopup="dialog" aria-controls="path-dialog">Stress e sovraccarico</button></h3>
+  <p>Quando ogni impegno sembra urgente e diventa difficile capire cosa puoi rimandare o condividere.</p>
+  <template class="area-detail"><p>A volte il carico più difficile da raccontare è fatto di tante cose piccole. Organizzare, ricordare per tutti e rendersi disponibili può lasciare poco spazio per accorgersi di ciò che serve a te.</p><h3>Nel primo incontro</h3><p>Possiamo ripercorrere una giornata concreta, individuare i momenti più affollati e capire dove vorresti chiedere aiuto, mettere un limite o ritrovare una pausa.</p></template>
+</article>
+</div>
+</div>
+</section>
+<section id="blog" class="journal section">
+<div class="wrap">
+<p class="kicker"><span class="dash"></span>Dal blog</p>
+<div class="journal-heading"><h2>Il quaderno <em>aperto.</em></h2>
+<a class="button" href="blog/index.html">Tutti gli articoli</a></div>
+<div class="journal-preview">
+<div class="featured-story"><article class="post" data-category="corpo-e-ascolto">
+  <a href="blog/corpo-e-ascolto.html"><img src="assets/corpo-e-ascolto.webp" width="1200" height="800" alt="">
+    <span class="post-cat">Corpo e ascolto</span><h3>Il peso di una giornata sulle spalle</h3></a>
+  <p class="post-summary">A volte ci accorgiamo di come stiamo soltanto quando posiamo la borsa e lasciamo scendere le spalle.</p>
+</article></div>
+<div class="side-stories">
+<div class="reading-pair">
+<article class="post" data-category="storie-di-se">
+  <a href="blog/storie-di-se.html"><img src="assets/storie-di-se.webp" width="1200" height="800" alt="">
+    <div class="reading-caption"><span class="post-cat">Storie di sé</span><h3>Una pagina da cui ricominciare</h3></div></a>
+</article>
+<article class="post" data-category="relazioni">
+  <a href="blog/relazioni.html"><img src="assets/relazioni.webp" width="1200" height="800" alt="">
+    <div class="reading-caption"><span class="post-cat">Relazioni</span><h3>La distanza giusta per dirsi qualcosa</h3></div></a>
+</article>
+</div>
+<div class="reading-pair" hidden>
+<article class="post" data-category="corpo-e-ascolto">
+  <a href="blog/un-tempo-tra-due-impegni.html"><img src="assets/un-tempo-tra-due-impegni.webp" width="1200" height="800" alt="">
+    <div class="reading-caption"><span class="post-cat">Corpo e ascolto</span><h3>Un tempo tra due impegni</h3></div></a>
+</article>
+<article class="post" data-category="storie-di-se">
+  <a href="blog/la-parola-che-scegli-per-te.html"><img src="assets/la-parola-che-scegli-per-te.webp" width="1200" height="800" alt="">
+    <div class="reading-caption"><span class="post-cat">Storie di sé</span><h3>La parola che scegli per te</h3></div></a>
+</article>
+</div>
+</div></div></div></section>
+<section class="contact section" id="contatti">
+<div class="wrap contact-grid">
+<div class="studio-details">
+  <p class="kicker"><span class="dash"></span>Contatti</p>
+  <h2>In studio <em>e online.</em></h2>
+  <p>Ricevo su appuntamento a Roma, nel quartiere Testaccio. Se preferisci incontrarmi online, possiamo fissare un colloquio in videochiamata.</p>
+  <address class="studio-address">
+    <strong>Dott.ssa Serena Fasulo</strong>
+    <span>Psicologa e psicoterapeuta</span>
+    <span>Via delle Pagine Gentili 12, 00153 Roma</span>
+    <div class="studio-links">
+      <a href="tel:+390600000000" data-channel="telefono"><img src="assets/telephone.svg" alt="" width="16" height="16">06 0000 0000</a>
+      <a href="mailto:serena.fasulo@example.com" data-channel="email"><img src="assets/envelope.svg" alt="" width="17" height="17">serena.fasulo@example.com</a>
+    </div>
+  </address>
+  <figure class="studio-map">
+    <iframe title="Mappa Google del quartiere Testaccio a Roma" src="https://maps.google.com/maps?q=Testaccio%2C%20Roma%2C%20Italia&amp;z=14&amp;output=embed" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" width="600" height="210"></iframe>
+    <figcaption><span>Roma · Testaccio</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Testaccio%2C%20Roma%2C%20Italia" target="_blank" rel="noopener noreferrer">Apri in Google Maps</a></figcaption>
+  </figure>
+  <p class="studio-note">Indirizzo e recapiti dimostrativi. La mappa mostra il quartiere.</p>
+</div>
+<form id="contact-form" aria-labelledby="contact-heading">
+<h3 id="contact-heading">Scrivimi <em>due righe.</em></h3>
+<p class="form-note" id="demo-note">Puoi provare il modulo con dati di esempio. L’invio è disattivato.</p>
+<div class="fields">
+<label>Nome<input id="nome" autocomplete="given-name" required>
+</label>
+<label>Email<input type="email" id="email" autocomplete="email" required>
+</label>
+</div>
+<div class="fields">
+<label>Telefono <small>(facoltativo)</small>
+  <input type="tel" name="telefono" autocomplete="tel">
+</label>
+<label>Di cosa vorresti parlare?<select id="argomento"><option>Primo colloquio</option><option>Ascolto di sé</option><option>Momenti di cambiamento</option><option>Legami e relazioni</option><option>Ansia e preoccupazioni</option><option>Autostima e identità</option><option>Stress e sovraccarico</option><option>Altra domanda</option></select>
+</label>
+</div>
+<label>Il tuo messaggio <small>(facoltativo)</small><textarea id="messaggio" rows="3"></textarea>
+</label>
+<button class="button" type="button" id="preview" aria-describedby="demo-note">Prova il modulo</button>
+<p class="form-status" role="status">
+</p>
+</form>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap foot">
+<a class="footer-brand" href="#home" aria-label="Serena Fasulo, torna alla home">
+  <img src="assets/simbolo-negativo.svg" alt="" width="58" height="56">
+  <div><strong>Serena Fasulo</strong><span>Psicologa</span></div>
+</a>
+<div class="channel-icons footer-channels">
+  <a data-channel="facebook" href="#contatti" aria-label="Facebook di Serena Fasulo" title="Facebook di Serena Fasulo"><img src="assets/facebook.svg" alt="" width="19" height="19"></a>
+  <a data-channel="instagram" href="#contatti" aria-label="Instagram di Serena Fasulo" title="Instagram di Serena Fasulo"><img src="assets/instagram.svg" alt="" width="19" height="19"></a>
+  <a data-channel="telefono" href="tel:+390600000000" aria-label="Chiama Serena Fasulo" title="Chiama Serena Fasulo"><img src="assets/telephone.svg" alt="" width="19" height="19"></a>
+  <a data-channel="email" href="mailto:serena.fasulo@example.com" aria-label="Invia una mail a Serena Fasulo" title="Invia una mail a Serena Fasulo"><img src="assets/envelope.svg" alt="" width="19" height="19"></a>
+</div>
+</div>
+</footer>
+<a class="whatsapp" data-channel="whatsapp" href="#contatti" aria-label="Contatta Serena su WhatsApp"><img src="assets/whatsapp.svg" width="23" height="23" alt=""></a>
+<dialog id="path-dialog" aria-labelledby="path-title">
+  <div class="path-paper">
+    <button type="button" class="quiet-action path-close" aria-label="Chiudi approfondimento">Chiudi</button>
+    <div class="path-heading">
+      <img class="path-symbol" src="assets/percorso-ascolto.svg" width="96" height="80" alt="">
+      <p class="kicker">Percorsi</p>
+      <h2 id="path-title" tabindex="-1" autofocus></h2>
+    </div>
+    <div class="path-body">
+      <div class="path-copy"></div>
+      <button class="button" id="path-contact" type="button" aria-haspopup="dialog" aria-controls="appointment-dialog">Parliamone</button>
+    </div>
+  </div>
+</dialog>
+<dialog id="appointment-dialog" aria-labelledby="appointment-title">
+  <div class="appointment-sheet">
+    <div class="appointment-cover">
+      <p class="appointment-signature">Serena Fasulo</p>
+      <h2 id="appointment-title" tabindex="-1" autofocus>Il primo <em>colloquio.</em></h2>
+      <img src="assets/simbolo.svg" width="148" height="133" alt="">
+    </div>
+    <div class="appointment-page">
+      <button type="button" class="appointment-close" aria-label="Chiudi la finestra">Chiudi</button>
+      <form id="appointment-form" method="dialog">
+        <h3>Come posso ricontattarti?</h3>
+        <div class="fields">
+          <label>Nome<input name="nome" autocomplete="given-name" required></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        </div>
+        <div class="fields">
+          <label>Telefono <small>(facoltativo)</small>
+            <input type="tel" name="telefono" autocomplete="tel">
+          </label>
+          <label>Di cosa vorresti parlare?
+            <select name="percorso"><option>Primo colloquio</option><option>Ascolto di sé</option><option>Momenti di cambiamento</option><option>Legami e relazioni</option><option>Ansia e preoccupazioni</option><option>Autostima e identità</option><option>Stress e sovraccarico</option><option>Altra domanda</option></select>
+          </label>
+        </div>
+        <label>Due righe per Serena <small>(facoltativo)</small>
+          <textarea name="messaggio" rows="3"></textarea>
+        </label>
+        <p class="appointment-note">Anteprima dimostrativa. Puoi usare dati di esempio. La richiesta resta su questa pagina.</p>
+        <button type="submit" class="button">Rileggi la richiesta</button>
+      </form>
+      <div class="appointment-review" hidden>
+        <h3 tabindex="-1">La tua richiesta</h3>
+        <dl>
+          <dt>Argomento</dt><dd data-value="percorso"></dd>
+          <dt>Nome</dt><dd data-value="nome"></dd>
+          <dt>Email</dt><dd data-value="email"></dd>
+          <dt>Telefono</dt><dd data-value="telefono"></dd>
+          <dt>Messaggio</dt><dd data-value="messaggio"></dd>
+        </dl>
+        <p class="appointment-note">Anteprima completata. Nessun messaggio è stato inviato.</p>
+        <div class="actions"><button type="button" class="button" data-edit>Modifica</button><button type="button" class="quiet-action" data-done>Termina la prova</button></div>
+      </div>
+    </div>
+  </div>
+</dialog>
+<dialog id="channel-dialog" aria-labelledby="channel-title"><button type="button" class="close" aria-label="Chiudi finestra">×</button>
+<p class="kicker">Contatti</p>
+<h2 id="channel-title">
+</h2>
+<p id="channel-note">
+</p><a class="button" href="#contatti">Vai al modulo</a>
+</dialog>
+</body>
+</html>

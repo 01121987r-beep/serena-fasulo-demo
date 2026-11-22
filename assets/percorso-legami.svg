@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 80" fill="none">
+  <title>Due profili rivolti l’uno verso l’altro</title>
+  <g stroke="#292720" stroke-width="1.95" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 35C10 23 16 15 26 14C35 13 41 18 42 26C42 30 44 34 47 38Q49 41 44 42L42 43M42 50C41 56 37 58 32 57L29 66"/>
+    <path d="M32 31Q35 34 39 32M37 46Q40 47 42 45" stroke-width="1.45"/>
+    <path d="M80 34C82 20 75 12 65 13C57 13 53 19 53 27C53 31 52 36 50 39Q48 42 53 43L55 44M56 51C57 56 61 58 66 56L70 64"/>
+    <path d="M56 32Q60 34 63 30M55 47Q57 48 60 45" stroke-width="1.45"/>
+    <path d="M24 67Q28 64 30 64M70 63Q75 63 80 66" stroke="#dc700d" stroke-width="1.85"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 80" fill="none">
+  <title>Tre ciottoli in equilibrio</title>
+  <g stroke="#292720" stroke-width="1.95" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 58C18 52 30 48 43 47C56 46 72 48 78 54C82 59 76 64 67 65C53 68 30 67 21 64C17 63 15 61 16 58Z"/>
+    <path d="M28 44C24 41 29 35 34 31C41 26 51 24 61 25C67 26 70 29 66 34C60 41 52 45 42 46C36 47 30 46 28 44Z"/>
+    <path d="M40 24C36 22 39 16 44 12C50 7 57 7 60 11C63 15 58 20 52 23C47 25 42 25 40 24Z"/>
+    <path d="M26 59C31 62 40 62 46 62" stroke="#dc700d" stroke-width="1.55"/>
+  </g>
+</svg>
